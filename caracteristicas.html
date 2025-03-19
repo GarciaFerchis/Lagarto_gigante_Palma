@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lagarto gigante de La Palma (Gallotia auaritae)">
+    <title>Lagarto Gigante de La Palma</title>
+    <link rel="icon" href="img/icono.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/bulma.min.css">
+
+    <style>
+        body {
+
+            background-color: #f4f7f6;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+         .navbar {
+            background-color: #2c3e50; 
+        }
+
+        .navbar-item {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .navbar-item:hover {
+            color: #f39c12 !important;
+        }
+
+        .hero-body {
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            padding: 40px 20px;
+        }
+
+        .hero-body h1, .hero-body h2 {
+            font-family: 'Verdana', sans-serif;
+        }
+
+        .section {
+            padding: 40px 20px;
+        }
+
+        .column img {
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 60px;  
+    height: 60px;
+    height: auto; 
+    object-fit: cover;  
+}
+
+.column img:hover {
+    transform: scale(1.05);
+}
+ 
+        .title, .subtitle {
+            
+            color: #ffffff;
+        }
+        
+        .title1{
+            font-size:x-large;
+            color: #2c3e50;
+
+        }
+         .subtitle1 {
+            color: #2c3e50;
+        }
+
+        .image-container {
+            margin-bottom: 40px;
+        }
+
+        
+.progress-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: none; 
+    width: 80%; 
+    max-width: 400px; 
+}
+#progressBar {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #f0f0f0; 
+    border-radius: 5px;
+}
+
+#progressBar::-webkit-progress-value {
+    background-color: #f39c12;
+}
+
+#progressBar::-moz-progress-bar {
+    background-color: #f39c12; 
+}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    <img src="img/icono.ico" alt="Lagarto" style="height: 60px; margin-right: 8px;">
+                </a>
+                <a href="indexx.html" class="navbar-item">Inicio</a>
+                <a href="caracteristicas.html" class="navbar-item">Características</a>
+                <a href="ultima.html" class="navbar-item">¿Sabías que?</a>
+                <a href="galeria.html" class="navbar-item">Galería</a>
+                <a href="conservacion.html" class="navbar-item">Conservación</a>
+                <a href="contactanos.html" class="navbar-item">Contáctanos</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">
+                    El Lagarto Gigante de La Palma
+                </h1>
+                <h2 class="subtitle">
+                    Un esfuerzo por salvar a una especie en peligro de extinción
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas" class="section">
+        <div class="container">
+            <h2 class="title1">Características del Lagarto Gigante</h2>
+            <div class="columns">
+                <div class="column is-half">
+                    <h3 class="subtitle1">Aspecto físico</h3>
+                    <p>Este lagarto es conocido por su tamaño impresionante y su aspecto robusto. Puede alcanzar hasta 1.5 metros de longitud y pesar más de 5 kg. Su piel es de color grisáceo con manchas oscuras.</p>
+                    <figure class="image is-4by3">
+                        <img src="img/lagarto.jpg" alt="Aspecto físico del Lagarto Gigante">
+                    </figure>
+                </div>
+                <div class="column is-half">
+                    <h3 class="subtitle1">Hábitat natural</h3>
+                    <p>Se encuentra principalmente en los acantilados y zonas rocosas de La Palma. Su hábitat está en peligro debido a la destrucción de su entorno natural y la introducción de especies invasoras.</p>
+                    <figure class="image is-4by3">
+                        <img src="img/habitat.jpg" alt="Hábitat natural del Lagarto Gigante">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-half">
+                    <h3 class="subtitle1">Dieta</h3>
+                    <p>La dieta del lagarto gigante incluye principalmente plantas, aunque también consume insectos y pequeños animales. Es un herbívoro oportunista, adaptándose a lo que su entorno le ofrece.</p>
+                    <figure class="image is-4by3">
+                        <img src="img/dieta.jpg" alt="Dieta del Lagarto Gigante">
+                    </figure>
+                </div>
+                <div class="column is-half">
+                    <h3 class="subtitle1">Reproducción</h3>
+                    <p>La reproducción del lagarto gigante ocurre en primavera. Las hembras ponen entre 4 y 10 huevos que incuban durante varios meses. El cuidado de los huevos es esencial para el éxito de la especie.</p>
+                    <figure class="image is-4by3">
+                        <img src="img/reproduccion.jpg" alt="Reproducción del Lagarto Gigante">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-half">
+                    <h3 class="subtitle1">Amenazas</h3>
+                    <p>Las principales amenazas son la introducción de especies invasoras, la destrucción de su hábitat y el cambio climático. Es importante tomar medidas para reducir estos impactos negativos.</p>
+                    <figure class="image is-4by3">
+                        <img src="img/amenazas.jpg" alt="Amenazas al Lagarto Gigante">
+                    </figure>
+                </div>
+                <div class="column is-half">
+                    <h3 class="subtitle1">Conservación</h3>
+                    <p>Para proteger al lagarto, se están implementando programas de cría en cautiverio y la restauración de su hábitat. Es esencial garantizar su supervivencia mediante la conservación activa de su entorno.</p>
+                    <figure class="image is-4by3">
+                        <img src="img/conservacion.webp" alt="Conservación del Lagarto Gigante">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="progressContainer" class="progress-container">
+        <progress id="progressBar" class="progress is-small" value="20" max="100">
+            20%
+        </progress>
+    </div>
+    <script>
+        window.onload = function() {
+            var progressContainer = document.getElementById('progressContainer');
+            
+            progressContainer.style.display = 'block';
+    
+            setTimeout(function() {
+                progressContainer.style.display = 'none';
+            }, 2000);
+        };
+    </script>
+
+    
+</body>
+<!-- Pie de página -->
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>© 2025 Lagarto Gigante de La Palma. Todos los derechos reservados. Fergie García</p>
+    </div>
+    </footer>
+
+</html>

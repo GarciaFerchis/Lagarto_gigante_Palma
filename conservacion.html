@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lagarto gigante de La Palma (Gallotia auaritae)">
+    <title>Lagarto Gigante de La Palma</title>
+    <link rel="icon" href="img/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <style>
+        body {
+            background-color: #f8f8f8;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #2c3e50;
+        }
+
+        .navbar-item {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .navbar-item:hover {
+            color: #f39c12 !important;
+        }
+
+
+        .hero-body {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-body h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-body p {
+            font-size: 1.5rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Secciones */
+        .section {
+            padding: 50px 20px;
+        }
+
+        .section h3 {
+            color: #2c3e50;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        ul li::before {
+            content: "• ";
+            color: #0d47a1;
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+
+        video {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .vid.titlehaz{
+            background-color: #2c3e50;
+        }
+
+        
+.progress-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: none; 
+    width: 80%; 
+    max-width: 400px; 
+}
+#progressBar {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #f0f0f0; 
+    border-radius: 5px;
+}
+
+#progressBar::-webkit-progress-value {
+    background-color: #f39c12;
+}
+
+#progressBar::-moz-progress-bar {
+    background-color: #f39c12; 
+}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    <img src="img/icono.ico" alt="Lagarto" style="height: 60px; margin-right: 8px;">
+                </a>
+                <a href="indexx.html" class="navbar-item">Inicio</a>
+                <a href="caracteristicas.html" class="navbar-item">Características</a>
+                <a href="ultima.html" class="navbar-item">¿Sabías que?</a>
+                <a href="galeria.html" class="navbar-item">Galería</a>
+                <a href="conservacion.html" class="navbar-item">Conservación</a>
+                <a href="contactanos.html" class="navbar-item">Contáctanos</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero is-large">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">El Lagarto Gigante de La Palma</h1>
+                <p class="subtitle">Una especie en peligro de extinción</p>
+                <h2 class="subtitle">El esfuerzo por salvar al Gallotia auaritae</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="inicio" class="section">
+        <div class="container">
+            <h3 class="title">Amenazas al Lagarto Gigante de La Palma</h3>
+            <p>El Lagarto Gigante de La Palma enfrenta varias amenazas que ponen en peligro su existencia:</p>
+            <ul>
+                <li><strong>Especies invasoras:</strong> Animales como gatos y ratas depredan sus huevos y crías.</li>
+                <li><strong>Destrucción del hábitat:</strong> La expansión urbana y la agricultura han reducido su espacio natural.</li>
+                <li><strong>Cambio climático:</strong> Las alteraciones en el clima modifican la disponibilidad de alimentos y afectan su hábitat.</li>
+            </ul>
+
+            <h3 class="title">¿Cómo podemos ayudar?</h3>
+            <p>Existen diversas formas en las que podemos contribuir a la conservación del Lagarto Gigante de La Palma:</p>
+            <ul>
+                <li><strong>Educación y sensibilización:</strong> Aprender sobre el lagarto y compartir esta información con otros.</li>
+                <li><strong>Apoyo a organizaciones:</strong> Colaborar con proyectos y ONGs que se dedican a su conservación.</li>
+                <li><strong>Voluntariado:</strong> Participar en programas de voluntariado en parques naturales para proteger su hábitat.</li>
+                <li><strong>Protección del medio ambiente:</strong> Ayudar a eliminar especies invasoras y restaurar su hábitat natural.</li>
+            </ul>
+
+            <h3 class="titlehaz">¡Haz tu parte!</h3>
+            <p>La conservación de esta especie no solo depende de los expertos, sino de todos. Cualquier acción cuenta, ya sea difundiendo información, apoyando organizaciones, o participando en actividades comunitarias de conservación. Juntos podemos hacer la diferencia.</p>
+
+            <div class="content">
+                <p>A continuación, puedes ver un video sobre la conservación del Lagarto Gigante:</p>
+                <video controls muted>
+                    <source src="img/LA PALMA_TIZON_LAGARTO AUTOCTONO_VOLCAN SAN ANTONIO - TIERRAVIVA y mas..... (1080p, h264).mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        </div>
+    </section>
+    <div id="progressContainer" class="progress-container">
+        <progress id="progressBar" class="progress is-small" value="20" max="100">
+            20%
+        </progress>
+    </div>
+    <script>
+        window.onload = function() {
+            var progressContainer = document.getElementById('progressContainer');
+            
+            progressContainer.style.display = 'block';
+    
+            setTimeout(function() {
+                progressContainer.style.display = 'none';
+            }, 2000);
+        };
+    </script>
+</body>
+<!-- Pie de página -->
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>© 2025 Lagarto Gigante de La Palma. Todos los derechos reservados. Fergie García</p>
+    </div>
+    </footer>
+</html>
